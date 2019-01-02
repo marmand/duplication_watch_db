@@ -2,6 +2,6 @@
 
 BEGIN;
 
-DROP SCHEMA find_duplicates;
+-- XXX Add DDLs here.
 
 ROLLBACK;
