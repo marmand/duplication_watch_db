@@ -3,6 +3,6 @@
 
 BEGIN;
 
-ALTER TABLE files ADD COLUMN size BIGINT;
+ALTER TABLE find_duplicates.files ADD COLUMN size BIGINT;
 
 COMMIT;

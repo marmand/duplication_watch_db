@@ -2,6 +2,6 @@
 
 BEGIN;
 
-ALTER TABLE files DROP COLUMN size;
+ALTER TABLE find_duplicates.files DROP COLUMN size;
 
 COMMIT;

@@ -2,7 +2,7 @@
 
 BEGIN;
 
-SELECT size from files
+SELECT size from find_duplicates.files
 WHERE 0;
 
 ROLLBACK;
