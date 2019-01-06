@@ -3,6 +3,6 @@
 BEGIN;
 
 SELECT size from find_duplicates.files
-WHERE 0;
+WHERE FALSE;
 
 ROLLBACK;
