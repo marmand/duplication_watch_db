@@ -5,3 +5,4 @@ schema 2019-01-02T18:37:04Z Armand Leclercq <armand@leclercq.site> # Create sche
 path_type [schema] 2019-01-02T19:05:20Z Armand Leclercq <armand@leclercq.site> # Create path_type type
 files [path_type] 2019-01-02T19:12:50Z Armand Leclercq <armand@leclercq.site> # Create files table to keep track of files
 file_size [files] 2019-01-06T20:34:51Z Armand Leclercq <armand@leclercq.site> # Add a size to files
+created_at_column [files] 2019-01-09T19:12:19Z Armand Leclercq <armand@leclercq.site> # Add created_at column to allow script to update hashes
