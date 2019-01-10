@@ -3,6 +3,6 @@
 
 BEGIN;
 
-ALTER TABLE find_duplicates.files ALTER COLUMN modification_time TYPE TIMESTAMP;
+ALTER TABLE find_duplicates.files ALTER COLUMN modification_time TYPE TIMESTAMP USING TO_TIMESTAMP(modification_time);
 
 COMMIT;
