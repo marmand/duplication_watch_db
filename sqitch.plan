@@ -7,3 +7,4 @@ files [path_type] 2019-01-02T19:12:50Z Armand Leclercq <armand@leclercq.site> # 
 file_size [files] 2019-01-06T20:34:51Z Armand Leclercq <armand@leclercq.site> # Add a size to files
 created_at_column [files] 2019-01-09T19:12:19Z Armand Leclercq <armand@leclercq.site> # Add created_at column to allow script to update hashes
 drop_updated_at_not_null_default [files] 2019-01-10T07:29:45Z Armand Leclercq <armand@leclercq.site> # Drop default, not null constraints on updated_at to allow new entries to have null values there
+modification_time [files] 2019-01-10T19:32:43Z Armand Leclercq <armand@leclercq.site> # Add file modification time information in table
