@@ -9,3 +9,4 @@ created_at_column [files] 2019-01-09T19:12:19Z Armand Leclercq <armand@leclercq.
 drop_updated_at_not_null_default [files] 2019-01-10T07:29:45Z Armand Leclercq <armand@leclercq.site> # Drop default, not null constraints on updated_at to allow new entries to have null values there
 modification_time [files] 2019-01-10T19:32:43Z Armand Leclercq <armand@leclercq.site> # Add file modification time information in table
 modification_time_in_timestamp [modification_time] 2019-01-10T19:38:42Z Armand Leclercq <armand@leclercq.site> # Set modification_time to be a timestamp
+l_in_path_type [path_type] 2019-01-11T18:44:15Z Armand Leclercq <armand@leclercq.site> # Add link type for path entries
